@@ -35,7 +35,6 @@ public class LookScript : MonoBehaviour
     private bool canChange;
 
     //Lists all walls and triggers of the current transition. Will be needed for color changing and room changing
-    private List<Renderer> walls;
     private List<Transform> triggers;
 
     //Simply put: What two transitions does this one lead to?
@@ -52,27 +51,14 @@ public class LookScript : MonoBehaviour
     {
         //Finds the player's camera, to ensure we are tracking where the player is facing.
         player = GameObject.FindGameObjectWithTag("MainCamera").transform;
+
         canChange = sceneChangesColor;
 
         if (floorOne != null)
             floorOne.SetActive(false);
         if (floorTwo != null)
             floorTwo.SetActive(false);
-
-        //Finds all the walls in the current transition, and ignores the triggers. These will be invisible later, but for now,
-        //are used for debugging to make sure they work properly. We don't want them also changing colors. This will only
-        //find the walls if the scene can change colors. If not, it doesn't need to find them (saves on space and memory).
-        walls = new List<Renderer>();
-        if (canChange)
-        {
-            foreach (Transform wall in transform)
-            {
-                if (!wall.CompareTag("TriggerOne") && !wall.CompareTag("TriggerTwo"))
-                {
-                    walls.Add(wall.GetComponent<Renderer>());
-                }
-            }
-        }
+        
 
         //This finds only the triggers in the scene. If the transition stays (basically, we are adding to the scene, not replacing
         //it), we want to track the triggers to make them disapear later on.
@@ -225,10 +211,10 @@ public class LookScript : MonoBehaviour
                 //This finds each wall in the scene (already deteremined when the transition is awoken) and
                 //Modifies the color based on the direction the viewer is facing, and blends the min and max colors
                 //accordingly, for a smooth transition from "Light to Dark."
-                foreach (Renderer wallRend in walls)
-                {
-                    wallRend.material.color = Color.Lerp(minColor, maxColor, mathNumber);
-                }
+                player.GetComponentInChildren<Camera>().backgroundColor = Color.Lerp(minColor, maxColor, mathNumber);
+
+                //wallRend.material.color = Color.Lerp(minColor, maxColor, mathNumber);
+
             }
         }
     }
