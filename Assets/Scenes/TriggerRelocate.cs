@@ -59,11 +59,13 @@ public class TriggerRelocate : MonoBehaviour
             {
                 waitingHold = true;
                 optionChosen = 0;
+                hit.transform.GetComponent<HighlightOption>().ActivateTouch();
             }
             if (hit.transform.gameObject.CompareTag("TriggerTwo") && hit.transform.GetComponent<ObjectMoves>().CanIMove())
             {
                 waitingHold = true;
                 optionChosen = 1;
+                hit.transform.GetComponent<HighlightOption>().ActivateTouch();
             }
         }
 

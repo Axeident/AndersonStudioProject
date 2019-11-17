@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1538,6 +1538,7 @@ GameObject:
   - component: {fileID: 160863375}
   - component: {fileID: 160863379}
   - component: {fileID: 160863378}
+  - component: {fileID: 160863380}
   - component: {fileID: 160863377}
   - component: {fileID: 160863376}
   m_Layer: 0
@@ -1633,6 +1634,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160863374}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &160863380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160863374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.8490566, g: 0.5736786, b: 0.21226415, a: 1}
+  materialEnd: {r: 0.9245283, g: 0.8010563, b: 0.64106447, a: 1}
 --- !u!1 &178716071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2917,7 @@ GameObject:
   - component: {fileID: 230239261}
   - component: {fileID: 230239265}
   - component: {fileID: 230239264}
+  - component: {fileID: 230239266}
   - component: {fileID: 230239263}
   - component: {fileID: 230239262}
   m_Layer: 0
@@ -2994,6 +3013,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230239260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &230239266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230239260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.7924528, g: 0.78123885, b: 0.78123885, a: 1}
+  materialEnd: {r: 0.5, g: 0.48349056, b: 0.48349056, a: 1}
 --- !u!1 &234261864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,6 +3391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 2
+  respawning: 1
 --- !u!64 &268238425
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3592,7 +3629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283312824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1245358024}
@@ -3720,6 +3757,7 @@ GameObject:
   - component: {fileID: 337450016}
   - component: {fileID: 337450019}
   - component: {fileID: 337450018}
+  - component: {fileID: 337450021}
   - component: {fileID: 337450017}
   - component: {fileID: 337450020}
   m_Layer: 0
@@ -3815,6 +3853,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &337450021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337450015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.7478057, g: 0.12335351, b: 0.7924528, a: 0}
+  materialEnd: {r: 0.8665845, g: 0.43543077, b: 0.8962264, a: 0}
 --- !u!1 &338991713
 GameObject:
   m_ObjectHideFlags: 0
@@ -4303,7 +4358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370997718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4913,6 +4968,7 @@ GameObject:
   - component: {fileID: 437937206}
   - component: {fileID: 437937209}
   - component: {fileID: 437937208}
+  - component: {fileID: 437937211}
   - component: {fileID: 437937207}
   - component: {fileID: 437937210}
   m_Layer: 0
@@ -5008,6 +5064,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &437937211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437937205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.7478057, g: 0.12335351, b: 0.7924528, a: 0}
+  materialEnd: {r: 0.8665845, g: 0.43543077, b: 0.8962264, a: 0}
 --- !u!1 &442157186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5111,6 +5184,7 @@ GameObject:
   - component: {fileID: 442665219}
   - component: {fileID: 442665223}
   - component: {fileID: 442665222}
+  - component: {fileID: 442665224}
   - component: {fileID: 442665221}
   - component: {fileID: 442665220}
   m_Layer: 0
@@ -5206,6 +5280,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442665218}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &442665224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442665218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.7924528, g: 0.78123885, b: 0.78123885, a: 1}
+  materialEnd: {r: 0.5, g: 0.48349056, b: 0.48349056, a: 1}
 --- !u!1 &451675487
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,6 +5816,7 @@ GameObject:
   - component: {fileID: 480767337}
   - component: {fileID: 480767341}
   - component: {fileID: 480767340}
+  - component: {fileID: 480767342}
   - component: {fileID: 480767339}
   - component: {fileID: 480767338}
   m_Layer: 0
@@ -5820,6 +5912,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480767336}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &480767342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480767336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.4433962, g: 0.3839228, b: 0.2739854, a: 1}
+  materialEnd: {r: 0.7924528, g: 0.6138119, b: 0.28034887, a: 1}
 --- !u!1 &492301968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5967,6 +6076,7 @@ GameObject:
   - component: {fileID: 519274219}
   - component: {fileID: 519274223}
   - component: {fileID: 519274222}
+  - component: {fileID: 519274224}
   - component: {fileID: 519274221}
   - component: {fileID: 519274220}
   m_Layer: 0
@@ -6062,6 +6172,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519274218}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &519274224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519274218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.7054468, g: 0.9056604, b: 0.66215736, a: 1}
 --- !u!1 &542486392
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,6 +6428,7 @@ GameObject:
   - component: {fileID: 565061287}
   - component: {fileID: 565061291}
   - component: {fileID: 565061290}
+  - component: {fileID: 565061292}
   - component: {fileID: 565061289}
   - component: {fileID: 565061288}
   m_Layer: 0
@@ -6396,6 +6524,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565061286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &565061292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565061286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.4433962, g: 0.3839228, b: 0.2739854, a: 1}
+  materialEnd: {r: 0.7924528, g: 0.6138119, b: 0.28034887, a: 1}
 --- !u!1 &588586936
 GameObject:
   m_ObjectHideFlags: 0
@@ -7137,6 +7282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 2
+  respawning: 1
 --- !u!64 &623347550
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8022,6 +8168,7 @@ GameObject:
   - component: {fileID: 695410832}
   - component: {fileID: 695410836}
   - component: {fileID: 695410835}
+  - component: {fileID: 695410837}
   - component: {fileID: 695410834}
   - component: {fileID: 695410833}
   m_Layer: 0
@@ -8117,6 +8264,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695410831}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &695410837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695410831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.8207547, g: 0.749596, b: 0.22841759, a: 1}
+  materialEnd: {r: 0.9716981, g: 0.9361837, b: 0.6737718, a: 1}
 --- !u!1 &700886203
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,6 +8612,7 @@ GameObject:
   - component: {fileID: 721609289}
   - component: {fileID: 721609293}
   - component: {fileID: 721609292}
+  - component: {fileID: 721609294}
   - component: {fileID: 721609291}
   - component: {fileID: 721609290}
   m_Layer: 0
@@ -8543,6 +8708,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721609288}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &721609294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721609288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.7054468, g: 0.9056604, b: 0.66215736, a: 1}
 --- !u!1 &739922291
 GameObject:
   m_ObjectHideFlags: 0
@@ -10184,7 +10366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10842,7 +11024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11058,6 +11240,7 @@ GameObject:
   - component: {fileID: 961345138}
   - component: {fileID: 961345142}
   - component: {fileID: 961345141}
+  - component: {fileID: 961345143}
   - component: {fileID: 961345140}
   - component: {fileID: 961345139}
   m_Layer: 0
@@ -11153,6 +11336,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961345137}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &961345143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961345137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.8207547, g: 0.749596, b: 0.22841759, a: 1}
+  materialEnd: {r: 0.9716981, g: 0.9361837, b: 0.6737718, a: 1}
 --- !u!1 &963909429
 GameObject:
   m_ObjectHideFlags: 0
@@ -13621,6 +13821,7 @@ GameObject:
   - component: {fileID: 1145281688}
   - component: {fileID: 1145281692}
   - component: {fileID: 1145281691}
+  - component: {fileID: 1145281693}
   - component: {fileID: 1145281690}
   - component: {fileID: 1145281689}
   m_Layer: 0
@@ -13716,6 +13917,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145281687}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1145281693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145281687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.4433962, g: 0.3839228, b: 0.2739854, a: 1}
+  materialEnd: {r: 0.7924528, g: 0.6138119, b: 0.28034887, a: 1}
 --- !u!1 &1153996449
 GameObject:
   m_ObjectHideFlags: 0
@@ -14126,6 +14344,7 @@ GameObject:
   - component: {fileID: 1191011614}
   - component: {fileID: 1191011618}
   - component: {fileID: 1191011617}
+  - component: {fileID: 1191011619}
   - component: {fileID: 1191011616}
   - component: {fileID: 1191011615}
   m_Layer: 0
@@ -14221,6 +14440,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191011613}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1191011619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191011613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.8490566, g: 0.5736786, b: 0.21226415, a: 1}
+  materialEnd: {r: 0.9245283, g: 0.8010563, b: 0.64106447, a: 1}
 --- !u!1 &1195157260
 GameObject:
   m_ObjectHideFlags: 0
@@ -14967,6 +15203,7 @@ GameObject:
   - component: {fileID: 1262686545}
   - component: {fileID: 1262686548}
   - component: {fileID: 1262686547}
+  - component: {fileID: 1262686550}
   - component: {fileID: 1262686546}
   - component: {fileID: 1262686549}
   m_Layer: 0
@@ -15062,6 +15299,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &1262686550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262686544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.6904537, g: 0.8962264, b: 0.6468049, a: 1}
 --- !u!1 &1276634251
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,6 +15967,7 @@ GameObject:
   - component: {fileID: 1303707838}
   - component: {fileID: 1303707842}
   - component: {fileID: 1303707841}
+  - component: {fileID: 1303707843}
   - component: {fileID: 1303707840}
   - component: {fileID: 1303707839}
   m_Layer: 0
@@ -15808,6 +16063,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303707837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1303707843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303707837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.7924528, g: 0.78123885, b: 0.78123885, a: 1}
+  materialEnd: {r: 0.5, g: 0.48349056, b: 0.48349056, a: 1}
 --- !u!1 &1308910404
 GameObject:
   m_ObjectHideFlags: 0
@@ -16583,7 +16855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17080,6 +17352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 2
+  respawning: 1
 --- !u!64 &1419838429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17603,6 +17876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 2
+  respawning: 1
 --- !u!64 &1446348851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18601,6 +18875,7 @@ GameObject:
   - component: {fileID: 1600936811}
   - component: {fileID: 1600936815}
   - component: {fileID: 1600936814}
+  - component: {fileID: 1600936816}
   - component: {fileID: 1600936813}
   - component: {fileID: 1600936812}
   m_Layer: 0
@@ -18696,6 +18971,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600936810}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1600936816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600936810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.11627804, g: 0.32932332, b: 0.6320754, a: 1}
+  materialEnd: {r: 0.52954787, g: 0.70014185, b: 0.9433962, a: 1}
 --- !u!1 &1612137944
 GameObject:
   m_ObjectHideFlags: 0
@@ -19284,6 +19576,7 @@ GameObject:
   - component: {fileID: 1704324127}
   - component: {fileID: 1704324131}
   - component: {fileID: 1704324130}
+  - component: {fileID: 1704324132}
   - component: {fileID: 1704324129}
   - component: {fileID: 1704324128}
   m_Layer: 0
@@ -19379,6 +19672,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704324126}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1704324132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704324126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.7054468, g: 0.9056604, b: 0.66215736, a: 1}
 --- !u!1 &1713722711
 GameObject:
   m_ObjectHideFlags: 0
@@ -19390,6 +19700,7 @@ GameObject:
   - component: {fileID: 1713722712}
   - component: {fileID: 1713722716}
   - component: {fileID: 1713722715}
+  - component: {fileID: 1713722717}
   - component: {fileID: 1713722714}
   - component: {fileID: 1713722713}
   m_Layer: 0
@@ -19485,6 +19796,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713722711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1713722717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713722711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.8490566, g: 0.5736786, b: 0.21226415, a: 1}
+  materialEnd: {r: 0.9245283, g: 0.8010563, b: 0.64106447, a: 1}
 --- !u!1 &1721493832
 GameObject:
   m_ObjectHideFlags: 0
@@ -20574,6 +20902,7 @@ GameObject:
   - component: {fileID: 1800732324}
   - component: {fileID: 1800732328}
   - component: {fileID: 1800732327}
+  - component: {fileID: 1800732329}
   - component: {fileID: 1800732326}
   - component: {fileID: 1800732325}
   m_Layer: 0
@@ -20669,6 +20998,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800732323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1800732329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800732323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.11627804, g: 0.32932332, b: 0.6320754, a: 1}
+  materialEnd: {r: 0.52954787, g: 0.70014185, b: 0.9433962, a: 1}
 --- !u!1 &1804964209
 GameObject:
   m_ObjectHideFlags: 0
@@ -20773,6 +21119,7 @@ GameObject:
   - component: {fileID: 1813337804}
   - component: {fileID: 1813337807}
   - component: {fileID: 1813337806}
+  - component: {fileID: 1813337809}
   - component: {fileID: 1813337805}
   - component: {fileID: 1813337808}
   m_Layer: 0
@@ -20868,6 +21215,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &1813337809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813337803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.7478057, g: 0.12335351, b: 0.7924528, a: 0}
+  materialEnd: {r: 0.8665845, g: 0.43543077, b: 0.8962264, a: 0}
 --- !u!1 &1813953110
 GameObject:
   m_ObjectHideFlags: 0
@@ -21005,6 +21369,7 @@ GameObject:
   - component: {fileID: 1864025566}
   - component: {fileID: 1864025569}
   - component: {fileID: 1864025568}
+  - component: {fileID: 1864025571}
   - component: {fileID: 1864025567}
   - component: {fileID: 1864025570}
   m_Layer: 0
@@ -21100,6 +21465,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &1864025571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864025565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.6904537, g: 0.8962264, b: 0.6468049, a: 1}
 --- !u!1 &1865397634
 GameObject:
   m_ObjectHideFlags: 0
@@ -22173,6 +22555,7 @@ GameObject:
   - component: {fileID: 1944152261}
   - component: {fileID: 1944152264}
   - component: {fileID: 1944152263}
+  - component: {fileID: 1944152266}
   - component: {fileID: 1944152262}
   - component: {fileID: 1944152265}
   m_Layer: 0
@@ -22268,6 +22651,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &1944152266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944152260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.34794658, g: 0.7830189, b: 0.25485048, a: 1}
+  materialEnd: {r: 0.6904537, g: 0.8962264, b: 0.6468049, a: 1}
 --- !u!1 &1953116053
 GameObject:
   m_ObjectHideFlags: 0
@@ -23859,6 +24259,7 @@ GameObject:
   - component: {fileID: 2037403136}
   - component: {fileID: 2037403140}
   - component: {fileID: 2037403139}
+  - component: {fileID: 2037403141}
   - component: {fileID: 2037403138}
   - component: {fileID: 2037403137}
   m_Layer: 0
@@ -23954,6 +24355,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037403135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2037403141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037403135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 1
+  glareSelection: 0
+  lerpProgress: 0
+  materialOriginal: {r: 0.11627804, g: 0.32932332, b: 0.6320754, a: 1}
+  materialEnd: {r: 0.52954787, g: 0.70014185, b: 0.9433962, a: 1}
 --- !u!1 &2039351123
 GameObject:
   m_ObjectHideFlags: 0
@@ -23965,6 +24383,7 @@ GameObject:
   - component: {fileID: 2039351124}
   - component: {fileID: 2039351128}
   - component: {fileID: 2039351127}
+  - component: {fileID: 2039351129}
   - component: {fileID: 2039351126}
   - component: {fileID: 2039351125}
   m_Layer: 0
@@ -24060,6 +24479,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039351123}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2039351129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039351123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b955db2bf1dfd5146b2c4da35555582f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeSelection: 0
+  glareSelection: 1
+  lerpProgress: 0
+  materialOriginal: {r: 0.8207547, g: 0.749596, b: 0.22841759, a: 1}
+  materialEnd: {r: 0.9716981, g: 0.9361837, b: 0.6737718, a: 1}
 --- !u!1 &2040580660
 GameObject:
   m_ObjectHideFlags: 0
