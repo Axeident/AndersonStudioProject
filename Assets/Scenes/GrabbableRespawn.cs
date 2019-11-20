@@ -12,6 +12,7 @@ public class GrabbableRespawn : MonoBehaviour
     /// Maximum distance the object can be from the player before it respawns
     /// </summary>
     public float maxDistance = 5f;
+    public bool respawning = true;
     void Start()
     {
         spawnpoint = this.transform.position;
@@ -19,8 +20,9 @@ public class GrabbableRespawn : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, this.transform.position) > maxDistance)
+        if (Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, this.transform.position) > maxDistance && respawning == true)
         {
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
             this.transform.position = spawnpoint;
         }
     }
