@@ -8,6 +8,7 @@ TagManager:
   - TriggerOne
   - TriggerTwo
   - LoseItem
+  - TriggerStart
   layers:
   - Default
   - TransparentFX
