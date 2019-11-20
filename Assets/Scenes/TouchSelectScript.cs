@@ -15,7 +15,8 @@ public class TouchSelectScript : MonoBehaviour
     {
         runningScript = true;
         trigs = new List<Transform>();
-        foreach(Transform getTrig in transform)
+
+        foreach(Transform getTrig in transform.parent.parent.transform)
         {
             if(getTrig.CompareTag("TriggerOne") || getTrig.CompareTag("TriggerTwo"))
             {
@@ -40,10 +41,10 @@ public class TouchSelectScript : MonoBehaviour
                 //disable touch movement on the objects in the scene
                 foreach(Transform trigOff in trigs)
                 {
-                    //trigOff.GetComponent<GrabbableRespawn>().enabled = false;
-                    //trigOff.GetComponent<OVRGrabbable>().enabled = false;
-                    //Destroy(trigOff.GetComponent<Rigidbody>());
-                    trigOff.gameObject.SetActive(false);
+                    trigOff.GetComponent<GrabbableRespawn>().enabled = false;
+                    trigOff.GetComponent<OVRGrabbable>().enabled = false;
+                    Destroy(trigOff.GetComponent<Rigidbody>());
+                    //trigOff.gameObject.SetActive(false);
                 }
 
                 //Deactivate the script, so it doesn't cause strange issues later on in the engine.
@@ -62,10 +63,10 @@ public class TouchSelectScript : MonoBehaviour
                 //disable touch movement on the objects in the scene
                 foreach (Transform trigOff in trigs)
                 {
-                    //trigOff.GetComponent<GrabbableRespawn>().enabled = false;
-                    //trigOff.GetComponent<OVRGrabbable>().enabled = false;
-                    //Destroy(trigOff.GetComponent<Rigidbody>());
-                    trigOff.gameObject.SetActive(false);
+                    trigOff.GetComponent<GrabbableRespawn>().enabled = false;
+                    trigOff.GetComponent<OVRGrabbable>().enabled = false;
+                    Destroy(trigOff.GetComponent<Rigidbody>());
+                    //trigOff.gameObject.SetActive(false);
                 }
 
                 //Deactivate the script, so it doesn't cause strange issues later on in the engine.
