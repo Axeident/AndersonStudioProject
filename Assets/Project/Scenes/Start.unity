@@ -260,6 +260,12 @@ PrefabInstance:
       objectReference: {fileID: 1139007485}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
+--- !u!4 &256301988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
+    type: 3}
+  m_PrefabInstance: {fileID: 256301987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &421521828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1a9a1d119a5944aacfb87d1ec283a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayTransform: {fileID: 0}
+  rayTransform: {fileID: 256301988}
   m_Cursor: {fileID: 0}
   joyPadClickButton: 1
   gazeClickKey: 32

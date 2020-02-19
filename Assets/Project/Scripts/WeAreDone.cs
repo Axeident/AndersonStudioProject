@@ -5,9 +5,11 @@ using UnityEngine;
 public class WeAreDone : MonoBehaviour
 {
     public float HowLongTilStart;
+    public GameObject menus;
     private float makeTime;
     private bool isMoving = false;
     // Start is called before the first frame update
+    
     void Awake()
     {
         makeTime = 0f;
@@ -24,6 +26,7 @@ public class WeAreDone : MonoBehaviour
             {
                 gameObject.GetComponentInParent<PanAway>().StartJourney();
                 isMoving = false;
+                menus.SetActive(true);
             }
         }
         else
