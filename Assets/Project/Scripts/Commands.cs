@@ -88,6 +88,7 @@ public class Commands : MonoBehaviour
     // Fades out when scene loads
     void OnEnable()
     {
+        fadeImage.enabled = true;
         StartCoroutine(Fade(FadeDirection.Out));
     }
 }
