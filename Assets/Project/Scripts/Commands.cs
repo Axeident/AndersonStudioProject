@@ -7,13 +7,14 @@ using UnityEngine.SceneManagement;
 public class Commands : MonoBehaviour
 {
     // Image overlay for fade
-    public RawImage fadeOutUIImage;
+    public RawImage fadeImage;
     // Rate at which things fade 
-    public float fadeSpeed = 2.0f;
+    public float timeToFade = 2.0f;
 
     /// <summary>
     /// Fade in or out  - 1 represents fade in, 0 represents fade out
-    /// just a bit easier to understand than using a hoolean 
+    /// just a bit easier to understand than using a hoolean
+    /// In reference to image, so fade out ends with the image invisable
     /// </summary>
     public enum FadeDirection
     {
@@ -35,6 +36,39 @@ public class Commands : MonoBehaviour
         SceneManager.LoadScene(nextScene);
     }
 
+    // Heavily based on: https://gamedevelopertips.com/unity-how-fade-between-scenes/
+    private IEnumerator Fade(FadeDirection fadeDirection)
+    {
+        float alpha = (fadeDirection == FadeDirection.Out) ? 1 : 0;
+        float alphaFinal = (fadeDirection == FadeDirection.Out) ? 0 : 1;
+        if (fadeDirection == FadeDirection.Out)
+        {
+            while (alpha >= alphaFinal)
+            {
+                SetColorImage(ref alpha, fadeDirection);
+                yield return null;
+            }
+            fadeImage.enabled = false;
+        }
+        else
+        {
+            fadeImage.enabled = true;
+            while (alpha <= alphaFinal)
+            {
+                SetColorImage(ref alpha, fadeDirection);
+                yield return null;
+            }
+        }
+    }
+
+    private void SetColorImage(ref float alpha, FadeDirection fadeDirection)
+    {
+        fadeImage.color = new Color(fadeImage.color.r, fadeImage.color.g, fadeImage.color.b, alpha);
+        alpha += Time.deltaTime * (1.0f / timeToFade) * ((fadeDirection == FadeDirection.Out) ? -1 : 1);
+    }
+
+
+    
     public void StartSimulation()
     {
         Debug.Log("Start Simulation");
@@ -50,38 +84,10 @@ public class Commands : MonoBehaviour
     {
         Application.Quit();
     }
+
+    // Fades out when scene loads
     void OnEnable()
     {
         StartCoroutine(Fade(FadeDirection.Out));
-    }
-
-    private IEnumerator Fade(FadeDirection fadeDirection)
-    {
-        float alpha = (fadeDirection == FadeDirection.Out) ? 1 : 0;
-        float fadeEndValue = (fadeDirection == FadeDirection.Out) ? 0 : 1;
-        if (fadeDirection == FadeDirection.Out)
-        {
-            while (alpha >= fadeEndValue)
-            {
-                SetColorImage(ref alpha, fadeDirection);
-                yield return null;
-            }
-            fadeOutUIImage.enabled = false;
-        }
-        else
-        {
-            fadeOutUIImage.enabled = true;
-            while (alpha <= fadeEndValue)
-            {
-                SetColorImage(ref alpha, fadeDirection);
-                yield return null;
-            }
-        }
-    }
-
-    private void SetColorImage(ref float alpha, FadeDirection fadeDirection)
-    {
-        fadeOutUIImage.color = new Color(fadeOutUIImage.color.r, fadeOutUIImage.color.g, fadeOutUIImage.color.b, alpha);
-        alpha += Time.deltaTime * (1.0f / fadeSpeed) * ((fadeDirection == FadeDirection.Out) ? -1 : 1);
     }
 }
