@@ -13,8 +13,8 @@ public class LookScript : MonoBehaviour
     private bool runningScript;
 
     ///The colors of the minimum and maximum, used for the Light/Dark Transition.
-    public Color minColor;
-    public Color maxColor;
+    public Color LightColor;
+    public Color DarkColor;
 
     //Needed to know which objects/room particles spawn next
     private int optionChosen;
@@ -24,8 +24,8 @@ public class LookScript : MonoBehaviour
     public bool sceneChangesColor;
 
     //Floor Objects for scene
-    public GameObject floorOne;
-    public GameObject floorTwo;
+    public GameObject ManMadeFloor;
+    public GameObject NatureFloor;
 
     //Used for the camera rotation - Used during scene coloration
     private float mathNumber;
@@ -54,10 +54,10 @@ public class LookScript : MonoBehaviour
 
         canChange = sceneChangesColor;
 
-        if (floorOne != null)
-            floorOne.SetActive(false);
-        if (floorTwo != null)
-            floorTwo.SetActive(false);
+        if (ManMadeFloor != null)
+            ManMadeFloor.SetActive(false);
+        if (NatureFloor != null)
+            NatureFloor.SetActive(false);
         
 
         //This finds only the triggers in the scene. If the transition stays (basically, we are adding to the scene, not replacing
@@ -130,9 +130,9 @@ public class LookScript : MonoBehaviour
                     if (sceneChangesColor)
                     {
                         if (optionChosen == 0)
-                            player.GetComponentInChildren<Camera>().backgroundColor = minColor;
+                            player.GetComponentInChildren<Camera>().backgroundColor = LightColor;
                         else
-                            player.GetComponentInChildren<Camera>().backgroundColor = maxColor;
+                            player.GetComponentInChildren<Camera>().backgroundColor = DarkColor;
                     }
 
                     //If the scene transition stays, IE: objects spawned from the current transition, then only turn off the triggers
@@ -150,9 +150,9 @@ public class LookScript : MonoBehaviour
                         }
 
                         if (optionChosen == 0)
-                            floorOne.SetActive(true);
+                            ManMadeFloor.SetActive(true);
                         if (optionChosen == 1)
-                            floorTwo.SetActive(true);
+                            NatureFloor.SetActive(true);
 
                         //Deactivate the script, so it doesn't cause strange issues later on in the engine.
                         runningScript = false;
@@ -211,10 +211,7 @@ public class LookScript : MonoBehaviour
                 //This finds each wall in the scene (already deteremined when the transition is awoken) and
                 //Modifies the color based on the direction the viewer is facing, and blends the min and max colors
                 //accordingly, for a smooth transition from "Light to Dark."
-                player.GetComponentInChildren<Camera>().backgroundColor = Color.Lerp(minColor, maxColor, mathNumber);
-
-                //wallRend.material.color = Color.Lerp(minColor, maxColor, mathNumber);
-
+                player.GetComponentInChildren<Camera>().backgroundColor = Color.Lerp(LightColor, DarkColor, mathNumber);
             }
         }
     }
