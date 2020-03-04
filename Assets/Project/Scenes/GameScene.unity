@@ -11352,8 +11352,8 @@ MonoBehaviour:
   DarkColor: {r: 0, g: 0, b: 0, a: 0}
   sceneStays: 1
   sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  ManMadeFloor: {fileID: 1277277437}
+  NatureFloor: {fileID: 1952465174}
   LeadsTo:
   - {fileID: 775973719}
   - {fileID: 94555908}
@@ -24382,8 +24382,8 @@ MonoBehaviour:
   DarkColor: {r: 0, g: 0, b: 0, a: 0}
   sceneStays: 1
   sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  ManMadeFloor: {fileID: 1026356273}
+  NatureFloor: {fileID: 1770768262}
   LeadsTo:
   - {fileID: 338991713}
   - {fileID: 283312824}
