@@ -15297,6 +15297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668925466}
   - component: {fileID: 668925467}
+  - component: {fileID: 668925468}
   m_Layer: 0
   m_Name: Introduction
   m_TagString: Untagged
@@ -15327,7 +15328,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668925465}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
   m_Name: 
@@ -15343,6 +15344,24 @@ MonoBehaviour:
   - {fileID: 1081977487}
   - {fileID: 478908459}
   holdTimer: 2
+--- !u!114 &668925468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668925465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e6c530f1dcff94081ab94cc3917af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightColor: {r: 0, g: 0, b: 0, a: 0}
+  DarkColor: {r: 0, g: 0, b: 0, a: 0}
+  LeadsTo:
+  - {fileID: 1081977487}
+  - {fileID: 478908459}
+  holdTimerInSeconds: 3
 --- !u!1 &674566638
 GameObject:
   m_ObjectHideFlags: 0
