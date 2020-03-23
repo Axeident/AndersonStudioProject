@@ -1833,7 +1833,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 86529170}
-  - component: {fileID: 86529171}
   - component: {fileID: 86529172}
   m_Layer: 0
   m_Name: Path_Five_LNT_Two
@@ -1870,29 +1869,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &86529171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86529169}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &86529172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4496,7 +4472,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172000662}
-  - component: {fileID: 172000663}
   - component: {fileID: 172000664}
   m_Layer: 0
   m_Name: Path_Five_DMT_Two
@@ -4533,29 +4508,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &172000663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172000661}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &172000664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6830,7 +6782,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 262441313}
-  - component: {fileID: 262441314}
   - component: {fileID: 262441315}
   m_Layer: 0
   m_Name: Path_Five_LNO_Two
@@ -6867,29 +6818,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &262441314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262441312}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &262441315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11208,7 +11136,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441438622}
-  - component: {fileID: 441438623}
   - component: {fileID: 441438624}
   m_Layer: 0
   m_Name: Path_Five_DNT_Two
@@ -11245,29 +11172,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &441438623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441438621}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &441438624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15777,7 +15681,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 688919704}
-  - component: {fileID: 688919705}
   - component: {fileID: 688919706}
   m_Layer: 0
   m_Name: Path_Five_LNO_One
@@ -15814,29 +15717,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &688919705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688919703}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &688919706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18322,7 +18202,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788932374}
-  - component: {fileID: 788932375}
   - component: {fileID: 788932376}
   m_Layer: 0
   m_Name: Path_Five_DNT_One
@@ -18359,29 +18238,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &788932375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788932373}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &788932376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18964,7 +18820,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 825246743}
-  - component: {fileID: 825246744}
   - component: {fileID: 825246745}
   m_Layer: 0
   m_Name: Path_Five_LMO_One
@@ -19001,29 +18856,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &825246744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825246742}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &825246745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19187,7 +19019,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853417018}
-  - component: {fileID: 853417019}
   - component: {fileID: 853417020}
   m_Layer: 0
   m_Name: Path_Five_DMT_One
@@ -19224,29 +19055,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &853417019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853417017}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &853417020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21124,7 +20932,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 935396375}
-  - component: {fileID: 935396376}
   - component: {fileID: 935396377}
   m_Layer: 0
   m_Name: Path_Five_LMO_Two
@@ -21161,29 +20968,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935396376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935396374}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &935396377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21349,7 +21133,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 949411656}
-  - component: {fileID: 949411657}
   - component: {fileID: 949411658}
   m_Layer: 0
   m_Name: Path_Five_DMO_One
@@ -21386,29 +21169,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &949411657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 949411655}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &949411658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34278,7 +34038,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1493441625}
-  - component: {fileID: 1493441626}
   - component: {fileID: 1493441627}
   m_Layer: 0
   m_Name: Path_Five_DNO_One
@@ -34315,29 +34074,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1493441626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493441624}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &1493441627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35063,7 +34799,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1515779593}
-  - component: {fileID: 1515779594}
   - component: {fileID: 1515779595}
   m_Layer: 0
   m_Name: Path_Five_DNO_Two
@@ -35100,29 +34835,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1515779594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515779592}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &1515779595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35890,7 +35602,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534791710}
-  - component: {fileID: 1534791711}
   - component: {fileID: 1534791712}
   m_Layer: 0
   m_Name: Path_Five_LMT_One
@@ -35927,29 +35638,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1534791711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534791709}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &1534791712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39513,7 +39201,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1727062580}
-  - component: {fileID: 1727062581}
   - component: {fileID: 1727062582}
   m_Layer: 0
   m_Name: Path_Five_LMT_Two
@@ -39550,29 +39237,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1727062581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727062579}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &1727062582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46330,7 +45994,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1988513567}
-  - component: {fileID: 1988513568}
   - component: {fileID: 1988513569}
   m_Layer: 0
   m_Name: Path_Five_DMO_Two
@@ -46367,29 +46030,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1988513568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988513566}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &1988513569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50181,7 +49821,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2129114919}
-  - component: {fileID: 2129114920}
   - component: {fileID: 2129114921}
   m_Layer: 0
   m_Name: Path_Five_LNT_One
@@ -50218,29 +49857,6 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2129114920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129114918}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
-  LeadsTo:
-  - {fileID: 2014016304}
-  - {fileID: 2014016304}
-  holdTimer: 1
 --- !u!114 &2129114921
 MonoBehaviour:
   m_ObjectHideFlags: 0
