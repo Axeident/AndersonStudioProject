@@ -164,80 +164,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &8611995
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6243198513524365628, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_Name
-      value: Particle System
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365631, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6243198513524365629, guid: c06dedeacf7ab114190dbdf8b32e5180,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3402dffd303611a45aef9dadb4ccc160, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c06dedeacf7ab114190dbdf8b32e5180, type: 3}
 --- !u!1 &10381161
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +273,7 @@ GameObject:
   - component: {fileID: 13842750}
   - component: {fileID: 13842749}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -778,7 +704,7 @@ GameObject:
   - component: {fileID: 28151214}
   - component: {fileID: 28151213}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -870,7 +796,7 @@ GameObject:
   - component: {fileID: 32205027}
   - component: {fileID: 32205026}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1054,7 +980,7 @@ GameObject:
   - component: {fileID: 44555301}
   - component: {fileID: 44555300}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,7 +1114,7 @@ GameObject:
   - component: {fileID: 46632613}
   - component: {fileID: 46632614}
   m_Layer: 0
-  m_Name: PivotPoint (9)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1365,7 +1291,7 @@ GameObject:
   - component: {fileID: 58673248}
   - component: {fileID: 58673247}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,7 +1383,7 @@ GameObject:
   - component: {fileID: 63744111}
   - component: {fileID: 63744110}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1746,7 +1672,7 @@ GameObject:
   - component: {fileID: 75383647}
   - component: {fileID: 75383648}
   m_Layer: 0
-  m_Name: PivotPoint (8)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1907,7 +1833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 86529170}
-  - component: {fileID: 86529171}
+  - component: {fileID: 86529172}
   m_Layer: 0
   m_Name: Path_Five_LNT_Two
   m_TagString: Untagged
@@ -1943,7 +1869,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &86529171
+--- !u!114 &86529172
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1952,16 +1878,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 86529169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1623330534}
+  NaturalFloor: {fileID: 594130542}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -2020,7 +1941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91540631}
   m_Layer: 0
-  m_Name: WallOne (1)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2526,7 +2447,7 @@ GameObject:
   - component: {fileID: 97236117}
   - component: {fileID: 97236116}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2677,7 +2598,7 @@ GameObject:
   - component: {fileID: 103638643}
   - component: {fileID: 103638642}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2958,7 +2879,7 @@ GameObject:
   - component: {fileID: 106885144}
   - component: {fileID: 106885143}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3185,7 +3106,7 @@ GameObject:
   - component: {fileID: 113483056}
   - component: {fileID: 113483057}
   m_Layer: 0
-  m_Name: PivotPoint (6)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3230,7 +3151,7 @@ GameObject:
   - component: {fileID: 113763177}
   - component: {fileID: 113763178}
   m_Layer: 0
-  m_Name: PivotPoint (7)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3277,7 +3198,7 @@ GameObject:
   - component: {fileID: 114029958}
   - component: {fileID: 114029957}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3554,7 +3475,7 @@ GameObject:
   - component: {fileID: 123003547}
   - component: {fileID: 123003546}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3646,7 +3567,7 @@ GameObject:
   - component: {fileID: 126545145}
   - component: {fileID: 126545144}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3982,7 +3903,7 @@ GameObject:
   - component: {fileID: 132009723}
   - component: {fileID: 132009722}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4074,7 +3995,7 @@ GameObject:
   - component: {fileID: 142765174}
   - component: {fileID: 142765173}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4508,7 +4429,7 @@ GameObject:
   - component: {fileID: 158347486}
   - component: {fileID: 158347487}
   m_Layer: 0
-  m_Name: PivotPoint (15)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4551,7 +4472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172000662}
-  - component: {fileID: 172000663}
+  - component: {fileID: 172000664}
   m_Layer: 0
   m_Name: Path_Five_DMT_Two
   m_TagString: Untagged
@@ -4587,7 +4508,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &172000663
+--- !u!114 &172000664
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4596,16 +4517,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 172000661}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 653918346}
+  NaturalFloor: {fileID: 1030708727}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -5039,7 +4955,7 @@ GameObject:
   - component: {fileID: 185086148}
   - component: {fileID: 185086147}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5131,7 +5047,7 @@ GameObject:
   - component: {fileID: 191775846}
   - component: {fileID: 191775845}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5223,7 +5139,7 @@ GameObject:
   - component: {fileID: 198261101}
   - component: {fileID: 198261100}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5501,7 +5417,7 @@ GameObject:
   - component: {fileID: 205558395}
   - component: {fileID: 205558394}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5730,7 +5646,7 @@ GameObject:
   - component: {fileID: 213113448}
   - component: {fileID: 213113447}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5822,7 +5738,7 @@ GameObject:
   - component: {fileID: 216200225}
   - component: {fileID: 216200224}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6007,7 +5923,7 @@ GameObject:
   - component: {fileID: 223341771}
   - component: {fileID: 223341770}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6193,7 +6109,7 @@ GameObject:
   - component: {fileID: 228328803}
   - component: {fileID: 228328802}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6283,7 +6199,7 @@ GameObject:
   - component: {fileID: 234261865}
   - component: {fileID: 234261866}
   m_Layer: 0
-  m_Name: PivotPoint (10)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6330,7 +6246,7 @@ GameObject:
   - component: {fileID: 240343511}
   - component: {fileID: 240343510}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6668,7 +6584,7 @@ GameObject:
   - component: {fileID: 252411068}
   - component: {fileID: 252411069}
   m_Layer: 0
-  m_Name: PivotPoint (2)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6866,7 +6782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 262441313}
-  - component: {fileID: 262441314}
+  - component: {fileID: 262441315}
   m_Layer: 0
   m_Name: Path_Five_LNO_Two
   m_TagString: Untagged
@@ -6902,7 +6818,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &262441314
+--- !u!114 &262441315
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6911,16 +6827,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 262441312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 989381221}
+  NaturalFloor: {fileID: 1043204097}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -7302,7 +7213,7 @@ GameObject:
   - component: {fileID: 270970596}
   - component: {fileID: 270970595}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7438,7 +7349,7 @@ GameObject:
   - component: {fileID: 273372383}
   - component: {fileID: 273372382}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7608,7 +7519,7 @@ GameObject:
   - component: {fileID: 277838856}
   - component: {fileID: 277838855}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7698,7 +7609,7 @@ GameObject:
   - component: {fileID: 279817581}
   - component: {fileID: 279817582}
   m_Layer: 0
-  m_Name: PivotPoint (13)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7745,7 +7656,7 @@ GameObject:
   - component: {fileID: 280902138}
   - component: {fileID: 280902137}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7927,7 +7838,7 @@ GameObject:
   - component: {fileID: 282205163}
   - component: {fileID: 282205164}
   m_Layer: 0
-  m_Name: PivotPoint (8)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8103,7 +8014,7 @@ GameObject:
   - component: {fileID: 285265826}
   - component: {fileID: 285265825}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8618,7 +8529,7 @@ GameObject:
   - component: {fileID: 341760906}
   - component: {fileID: 341760905}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9061,7 +8972,7 @@ GameObject:
   - component: {fileID: 360382420}
   - component: {fileID: 360382419}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9286,7 +9197,7 @@ GameObject:
   - component: {fileID: 363903493}
   - component: {fileID: 363903492}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9394,7 +9305,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &370997720
 MonoBehaviour:
@@ -9421,7 +9332,7 @@ GameObject:
   - component: {fileID: 373439055}
   - component: {fileID: 373439054}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9513,7 +9424,7 @@ GameObject:
   - component: {fileID: 378324276}
   - component: {fileID: 378324275}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9605,7 +9516,7 @@ GameObject:
   - component: {fileID: 382307285}
   - component: {fileID: 382307284}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9697,7 +9608,7 @@ GameObject:
   - component: {fileID: 384693955}
   - component: {fileID: 384693954}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9789,7 +9700,7 @@ GameObject:
   - component: {fileID: 385217246}
   - component: {fileID: 385217245}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10172,7 +10083,7 @@ GameObject:
   - component: {fileID: 398479902}
   - component: {fileID: 398479901}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10355,7 +10266,7 @@ GameObject:
   - component: {fileID: 400603041}
   - component: {fileID: 400603042}
   m_Layer: 0
-  m_Name: PivotPoint
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10495,7 +10406,7 @@ GameObject:
   - component: {fileID: 409238921}
   - component: {fileID: 409238920}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10587,7 +10498,7 @@ GameObject:
   - component: {fileID: 417942637}
   - component: {fileID: 417942636}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10908,7 +10819,7 @@ GameObject:
   - component: {fileID: 435934936}
   - component: {fileID: 435934935}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10998,7 +10909,7 @@ GameObject:
   - component: {fileID: 437928010}
   - component: {fileID: 437928011}
   m_Layer: 0
-  m_Name: PivotPoint (10)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11045,7 +10956,7 @@ GameObject:
   - component: {fileID: 437937087}
   - component: {fileID: 437937086}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11137,7 +11048,7 @@ GameObject:
   - component: {fileID: 438001412}
   - component: {fileID: 438001411}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11225,7 +11136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441438622}
-  - component: {fileID: 441438623}
+  - component: {fileID: 441438624}
   m_Layer: 0
   m_Name: Path_Five_DNT_Two
   m_TagString: Untagged
@@ -11261,7 +11172,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &441438623
+--- !u!114 &441438624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11270,16 +11181,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 441438621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1098104407}
+  NaturalFloor: {fileID: 1786266870}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -11341,7 +11247,7 @@ GameObject:
   - component: {fileID: 442157189}
   - component: {fileID: 442157188}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11433,7 +11339,7 @@ GameObject:
   - component: {fileID: 461425603}
   - component: {fileID: 461425602}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11621,7 +11527,7 @@ GameObject:
   - component: {fileID: 466421495}
   - component: {fileID: 466421494}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11761,7 +11667,7 @@ Transform:
   - {fileID: 441438622}
   - {fileID: 2014016305}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &473274353
 MonoBehaviour:
@@ -11792,7 +11698,7 @@ GameObject:
   - component: {fileID: 477153098}
   - component: {fileID: 477153097}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11881,6 +11787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 478908460}
   - component: {fileID: 478908461}
+  - component: {fileID: 478908462}
   m_Layer: 0
   m_Name: Path_Two_Dark
   m_TagString: Untagged
@@ -11913,7 +11820,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478908459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
   m_Name: 
@@ -11925,6 +11832,24 @@ MonoBehaviour:
   sceneChangesColor: 0
   ManMadeFloor: {fileID: 1277277437}
   NatureFloor: {fileID: 1952465174}
+  LeadsTo:
+  - {fileID: 775973719}
+  - {fileID: 94555908}
+  holdTimer: 1
+--- !u!114 &478908462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478908459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IndustrialFloor: {fileID: 1277277437}
+  NaturalFloor: {fileID: 1952465174}
   LeadsTo:
   - {fileID: 775973719}
   - {fileID: 94555908}
@@ -12090,7 +12015,7 @@ GameObject:
   - component: {fileID: 492301971}
   - component: {fileID: 492301970}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12271,7 +12196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 509353397}
   m_Layer: 0
-  m_Name: WallOne (4)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12349,7 +12274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519615530}
   m_Layer: 0
-  m_Name: WallTwo (5)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12422,7 +12347,7 @@ Transform:
   m_Children:
   - {fileID: 706125431}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &523759642
 GameObject:
@@ -12993,7 +12918,7 @@ GameObject:
   - component: {fileID: 558176140}
   - component: {fileID: 558176139}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13085,7 +13010,7 @@ GameObject:
   - component: {fileID: 559539209}
   - component: {fileID: 559539208}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13270,7 +13195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566045236}
   m_Layer: 0
-  m_Name: WallTwo (6)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13490,7 +13415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594130543}
   m_Layer: 0
-  m_Name: WallTwo (7)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13618,7 +13543,7 @@ GameObject:
   - component: {fileID: 600629792}
   - component: {fileID: 600629793}
   m_Layer: 0
-  m_Name: PivotPoint (5)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13663,7 +13588,7 @@ GameObject:
   - component: {fileID: 609008337}
   - component: {fileID: 609008338}
   m_Layer: 0
-  m_Name: PivotPoint (12)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13862,7 +13787,7 @@ GameObject:
   - component: {fileID: 617034818}
   - component: {fileID: 617034817}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13954,7 +13879,7 @@ GameObject:
   - component: {fileID: 618256322}
   - component: {fileID: 618256321}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14046,7 +13971,7 @@ GameObject:
   - component: {fileID: 620302714}
   - component: {fileID: 620302713}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14805,7 +14730,7 @@ GameObject:
   - component: {fileID: 641021350}
   - component: {fileID: 641021349}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15037,7 +14962,7 @@ GameObject:
   - component: {fileID: 646561587}
   - component: {fileID: 646561586}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15170,7 +15095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 653918347}
   m_Layer: 0
-  m_Name: WallOne (3)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15296,7 +15221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668925466}
-  - component: {fileID: 668925467}
+  - component: {fileID: 668925468}
   m_Layer: 0
   m_Name: Introduction
   m_TagString: Untagged
@@ -15320,7 +15245,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &668925467
+--- !u!114 &668925468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15329,20 +15254,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 668925465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: dd57f1e281bd84f4aa0bc15a35f5f5c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
   LightColor: {r: 1, g: 1, b: 1, a: 0}
   DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 0
-  sceneChangesColor: 1
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
   LeadsTo:
   - {fileID: 1081977487}
   - {fileID: 478908459}
-  holdTimer: 2
+  holdTimerInSeconds: 3
 --- !u!1 &674566638
 GameObject:
   m_ObjectHideFlags: 0
@@ -15628,7 +15548,7 @@ GameObject:
   - component: {fileID: 681326390}
   - component: {fileID: 681326389}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15718,7 +15638,7 @@ GameObject:
   - component: {fileID: 686340322}
   - component: {fileID: 686340323}
   m_Layer: 0
-  m_Name: PivotPoint (3)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15761,7 +15681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 688919704}
-  - component: {fileID: 688919705}
+  - component: {fileID: 688919706}
   m_Layer: 0
   m_Name: Path_Five_LNO_One
   m_TagString: Untagged
@@ -15797,7 +15717,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &688919705
+--- !u!114 &688919706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15806,16 +15726,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 688919703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1059518095}
+  NaturalFloor: {fileID: 1616216073}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -15961,7 +15876,7 @@ GameObject:
   - component: {fileID: 702827331}
   - component: {fileID: 702827330}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16129,7 +16044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &706125430
 GameObject:
@@ -16276,7 +16191,7 @@ GameObject:
   - component: {fileID: 712136092}
   - component: {fileID: 712136091}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16956,7 +16871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 739531685}
   m_Layer: 0
-  m_Name: WallTwo (1)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16993,7 +16908,7 @@ GameObject:
   - component: {fileID: 741105127}
   - component: {fileID: 741105126}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17144,7 +17059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746090539}
   m_Layer: 0
-  m_Name: WallTwo (2)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17275,7 +17190,7 @@ GameObject:
   - component: {fileID: 756971539}
   - component: {fileID: 756971538}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17367,7 +17282,7 @@ GameObject:
   - component: {fileID: 762486564}
   - component: {fileID: 762486563}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17710,7 +17625,7 @@ GameObject:
   - component: {fileID: 771540136}
   - component: {fileID: 771540135}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17802,7 +17717,7 @@ GameObject:
   - component: {fileID: 775475719}
   - component: {fileID: 775475718}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17942,7 +17857,7 @@ GameObject:
   - component: {fileID: 780000597}
   - component: {fileID: 780000598}
   m_Layer: 0
-  m_Name: PivotPoint (3)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17989,7 +17904,7 @@ GameObject:
   - component: {fileID: 780443071}
   - component: {fileID: 780443070}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18081,7 +17996,7 @@ GameObject:
   - component: {fileID: 781464165}
   - component: {fileID: 781464164}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18287,7 +18202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788932374}
-  - component: {fileID: 788932375}
+  - component: {fileID: 788932376}
   m_Layer: 0
   m_Name: Path_Five_DNT_One
   m_TagString: Untagged
@@ -18323,7 +18238,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &788932375
+--- !u!114 &788932376
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18332,16 +18247,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 788932373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1871743622}
+  NaturalFloor: {fileID: 519615529}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -18359,7 +18269,7 @@ GameObject:
   - component: {fileID: 790063670}
   - component: {fileID: 790063669}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18544,7 +18454,7 @@ GameObject:
   - component: {fileID: 800173075}
   - component: {fileID: 800173074}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18636,7 +18546,7 @@ GameObject:
   - component: {fileID: 804661292}
   - component: {fileID: 804661291}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18910,7 +18820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 825246743}
-  - component: {fileID: 825246744}
+  - component: {fileID: 825246745}
   m_Layer: 0
   m_Name: Path_Five_LMO_One
   m_TagString: Untagged
@@ -18946,7 +18856,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &825246744
+--- !u!114 &825246745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18955,16 +18865,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 825246742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1554395230}
+  NaturalFloor: {fileID: 1813953110}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -18982,7 +18887,7 @@ GameObject:
   - component: {fileID: 825855007}
   - component: {fileID: 825855006}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19114,7 +19019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853417018}
-  - component: {fileID: 853417019}
+  - component: {fileID: 853417020}
   m_Layer: 0
   m_Name: Path_Five_DMT_One
   m_TagString: Untagged
@@ -19150,7 +19055,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &853417019
+--- !u!114 &853417020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19159,16 +19064,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 853417017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1451027121}
+  NaturalFloor: {fileID: 746090538}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -19375,7 +19275,7 @@ GameObject:
   - component: {fileID: 858864968}
   - component: {fileID: 858864967}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19557,7 +19457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868486319}
   m_Layer: 0
-  m_Name: WallTwo (6)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19594,7 +19494,7 @@ GameObject:
   - component: {fileID: 872214721}
   - component: {fileID: 872214720}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19686,7 +19586,7 @@ GameObject:
   - component: {fileID: 873559303}
   - component: {fileID: 873559302}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20164,7 +20064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 898462469}
   m_Layer: 0
-  m_Name: WallOne (2)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20352,7 +20252,7 @@ GameObject:
   - component: {fileID: 904559092}
   - component: {fileID: 904559091}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20476,7 +20376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20506,7 +20406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906291559}
   m_Layer: 0
-  m_Name: WallOne (1)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20587,7 +20487,7 @@ GameObject:
   - component: {fileID: 912473255}
   - component: {fileID: 912473254}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20679,7 +20579,7 @@ GameObject:
   - component: {fileID: 920950339}
   - component: {fileID: 920950338}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20771,7 +20671,7 @@ GameObject:
   - component: {fileID: 921880172}
   - component: {fileID: 921880171}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20944,7 +20844,7 @@ GameObject:
   - component: {fileID: 926916945}
   - component: {fileID: 926916944}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21032,7 +20932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 935396375}
-  - component: {fileID: 935396376}
+  - component: {fileID: 935396377}
   m_Layer: 0
   m_Name: Path_Five_LMO_Two
   m_TagString: Untagged
@@ -21068,7 +20968,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935396376
+--- !u!114 &935396377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21077,16 +20977,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 935396374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 91540630}
+  NaturalFloor: {fileID: 1403151142}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -21102,7 +20997,7 @@ GameObject:
   - component: {fileID: 943161162}
   - component: {fileID: 943161163}
   m_Layer: 0
-  m_Name: PivotPoint (11)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21238,7 +21133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 949411656}
-  - component: {fileID: 949411657}
+  - component: {fileID: 949411658}
   m_Layer: 0
   m_Name: Path_Five_DMO_One
   m_TagString: Untagged
@@ -21274,7 +21169,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &949411657
+--- !u!114 &949411658
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21283,16 +21178,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 949411655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 2078901484}
+  NaturalFloor: {fileID: 566045235}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -21409,6 +21299,42 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 134650, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 162066, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 162068, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -21439,7 +21365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21452,50 +21378,6 @@ PrefabInstance:
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: GravityModifier
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: _trackingOriginType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 162066, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 100014, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 162068, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 134650, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2015248, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_ClearFlags
@@ -21517,11 +21399,19 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.a
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1660603843503870, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+    - target: {fileID: 11400002, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: _trackingOriginType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: GravityModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125068011842588, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 1125068011842588, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+    - target: {fileID: 1660603843503870, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -21837,7 +21727,7 @@ GameObject:
   - component: {fileID: 962885842}
   - component: {fileID: 962885841}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21929,7 +21819,7 @@ GameObject:
   - component: {fileID: 963909432}
   - component: {fileID: 963909431}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22459,7 +22349,7 @@ GameObject:
   - component: {fileID: 984121313}
   - component: {fileID: 984121314}
   m_Layer: 0
-  m_Name: PivotPoint (9)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22641,7 +22531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989381222}
   m_Layer: 0
-  m_Name: WallOne (5)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22678,7 +22568,7 @@ GameObject:
   - component: {fileID: 991205638}
   - component: {fileID: 991205637}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22770,7 +22660,7 @@ GameObject:
   - component: {fileID: 1000384052}
   - component: {fileID: 1000384051}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22862,7 +22752,7 @@ GameObject:
   - component: {fileID: 1000823614}
   - component: {fileID: 1000823613}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23277,7 +23167,7 @@ GameObject:
   - component: {fileID: 1010696739}
   - component: {fileID: 1010696738}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23657,7 +23547,7 @@ GameObject:
   - component: {fileID: 1017697636}
   - component: {fileID: 1017697635}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23839,7 +23729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026356274}
   m_Layer: 0
-  m_Name: ManMadeFloor
+  m_Name: IndustrialFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24092,7 +23982,7 @@ Transform:
   m_LocalScale: {x: 300, y: 1, z: 300}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030708727
 GameObject:
@@ -24104,7 +23994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030708728}
   m_Layer: 0
-  m_Name: WallTwo (3)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24234,7 +24124,7 @@ GameObject:
   - component: {fileID: 1038312277}
   - component: {fileID: 1038312276}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24323,7 +24213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043204098}
   m_Layer: 0
-  m_Name: WallTwo (5)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24720,7 +24610,7 @@ GameObject:
   - component: {fileID: 1057228723}
   - component: {fileID: 1057228722}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24902,7 +24792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059518096}
   m_Layer: 0
-  m_Name: WallOne (4)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24939,7 +24829,7 @@ GameObject:
   - component: {fileID: 1069810632}
   - component: {fileID: 1069810631}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25087,6 +24977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081977488}
   - component: {fileID: 1081977489}
+  - component: {fileID: 1081977490}
   m_Layer: 0
   m_Name: Path_Two_Light
   m_TagString: Untagged
@@ -25119,7 +25010,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081977487}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
   m_Name: 
@@ -25131,6 +25022,24 @@ MonoBehaviour:
   sceneChangesColor: 0
   ManMadeFloor: {fileID: 1026356273}
   NatureFloor: {fileID: 1770768262}
+  LeadsTo:
+  - {fileID: 338991713}
+  - {fileID: 283312824}
+  holdTimer: 1
+--- !u!114 &1081977490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081977487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IndustrialFloor: {fileID: 1026356273}
+  NaturalFloor: {fileID: 1770768262}
   LeadsTo:
   - {fileID: 338991713}
   - {fileID: 283312824}
@@ -25148,7 +25057,7 @@ GameObject:
   - component: {fileID: 1090161125}
   - component: {fileID: 1090161124}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25240,7 +25149,7 @@ GameObject:
   - component: {fileID: 1091591934}
   - component: {fileID: 1091591933}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25408,7 +25317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098104408}
   m_Layer: 0
-  m_Name: WallOne (7)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25525,75 +25434,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099017904}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1101975147
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3392354091277353672, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_Name
-      value: Plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392354091277353673, guid: d5f139c35f41d2342a06078fe2c3d0ec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d5f139c35f41d2342a06078fe2c3d0ec, type: 3}
 --- !u!1 &1102706521
 GameObject:
   m_ObjectHideFlags: 0
@@ -25666,7 +25506,7 @@ GameObject:
   - component: {fileID: 1104847983}
   - component: {fileID: 1104847982}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25758,7 +25598,7 @@ GameObject:
   - component: {fileID: 1105105669}
   - component: {fileID: 1105105668}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25934,7 +25774,7 @@ GameObject:
   - component: {fileID: 1109330371}
   - component: {fileID: 1109330370}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26207,7 +26047,7 @@ GameObject:
   - component: {fileID: 1131773509}
   - component: {fileID: 1131773508}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26724,7 +26564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166620682}
   m_Layer: 0
-  m_Name: WallOne (6)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26761,7 +26601,7 @@ GameObject:
   - component: {fileID: 1179662415}
   - component: {fileID: 1179662414}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26850,7 +26690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1183119983}
   m_Layer: 0
-  m_Name: WallTwo
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26887,7 +26727,7 @@ GameObject:
   - component: {fileID: 1184036051}
   - component: {fileID: 1184036050}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26979,7 +26819,7 @@ GameObject:
   - component: {fileID: 1186486427}
   - component: {fileID: 1186486426}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27201,7 +27041,7 @@ GameObject:
   - component: {fileID: 1195157263}
   - component: {fileID: 1195157262}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27309,7 +27149,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1196577857
 BoxCollider:
@@ -27416,7 +27256,7 @@ RectTransform:
   m_Children:
   - {fileID: 1612598629}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -27998,7 +27838,7 @@ GameObject:
   - component: {fileID: 1238345971}
   - component: {fileID: 1238345970}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28365,7 +28205,7 @@ GameObject:
   - component: {fileID: 1255908498}
   - component: {fileID: 1255908499}
   m_Layer: 0
-  m_Name: PivotPoint (6)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28412,7 +28252,7 @@ GameObject:
   - component: {fileID: 1262446331}
   - component: {fileID: 1262446330}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28607,7 +28447,7 @@ GameObject:
   - component: {fileID: 1277171899}
   - component: {fileID: 1277171898}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28906,7 +28746,7 @@ GameObject:
   - component: {fileID: 1280495338}
   - component: {fileID: 1280495337}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29184,7 +29024,7 @@ GameObject:
   - component: {fileID: 1283255844}
   - component: {fileID: 1283255843}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29799,7 +29639,7 @@ GameObject:
   - component: {fileID: 1299522925}
   - component: {fileID: 1299522926}
   m_Layer: 0
-  m_Name: PivotPoint (5)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29936,7 +29776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308910405}
   m_Layer: 0
-  m_Name: WallTwo (2)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29973,7 +29813,7 @@ GameObject:
   - component: {fileID: 1310933691}
   - component: {fileID: 1310933690}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30195,7 +30035,7 @@ GameObject:
   - component: {fileID: 1318974042}
   - component: {fileID: 1318974041}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30378,7 +30218,7 @@ GameObject:
   - component: {fileID: 1327921145}
   - component: {fileID: 1327921146}
   m_Layer: 0
-  m_Name: PivotPoint
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30587,7 +30427,7 @@ GameObject:
   - component: {fileID: 1343116149}
   - component: {fileID: 1343116148}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30856,7 +30696,7 @@ GameObject:
   - component: {fileID: 1348278073}
   - component: {fileID: 1348278072}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31134,7 +30974,7 @@ GameObject:
   - component: {fileID: 1355205132}
   - component: {fileID: 1355205131}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31320,7 +31160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31891,7 +31731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403151143}
   m_Layer: 0
-  m_Name: WallTwo (1)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32711,7 +32551,7 @@ GameObject:
   - component: {fileID: 1440705031}
   - component: {fileID: 1440705030}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32803,7 +32643,7 @@ GameObject:
   - component: {fileID: 1440735034}
   - component: {fileID: 1440735033}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33064,7 +32904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449332939}
   m_Layer: 0
-  m_Name: WallTwo (3)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33098,7 +32938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451027122}
   m_Layer: 0
-  m_Name: WallOne (2)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33135,7 +32975,7 @@ GameObject:
   - component: {fileID: 1452942101}
   - component: {fileID: 1452942100}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33399,7 +33239,7 @@ GameObject:
   - component: {fileID: 1459586768}
   - component: {fileID: 1459586767}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33491,7 +33331,7 @@ GameObject:
   - component: {fileID: 1459936842}
   - component: {fileID: 1459936841}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34198,7 +34038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1493441625}
-  - component: {fileID: 1493441626}
+  - component: {fileID: 1493441627}
   m_Layer: 0
   m_Name: Path_Five_DNO_One
   m_TagString: Untagged
@@ -34234,7 +34074,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1493441626
+--- !u!114 &1493441627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34243,16 +34083,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1493441624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1707830365}
+  NaturalFloor: {fileID: 1183119982}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -34270,7 +34105,7 @@ GameObject:
   - component: {fileID: 1499173745}
   - component: {fileID: 1499173744}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34770,75 +34605,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508721006}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1510787705
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5468284116790693243, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_Name
-      value: FireFlies
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.71
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.8399999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468284116790693244, guid: 7086905b073a7b746add8c756d4f24a0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7086905b073a7b746add8c756d4f24a0, type: 3}
 --- !u!1 &1511926818
 GameObject:
   m_ObjectHideFlags: 0
@@ -34945,7 +34711,7 @@ GameObject:
   - component: {fileID: 1515595979}
   - component: {fileID: 1515595978}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35033,7 +34799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1515779593}
-  - component: {fileID: 1515779594}
+  - component: {fileID: 1515779595}
   m_Layer: 0
   m_Name: Path_Five_DNO_Two
   m_TagString: Untagged
@@ -35069,7 +34835,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1515779594
+--- !u!114 &1515779595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35078,16 +34844,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1515779592}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 509353396}
+  NaturalFloor: {fileID: 1885271750}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -35291,7 +35052,7 @@ GameObject:
   - component: {fileID: 1519778455}
   - component: {fileID: 1519778454}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35383,7 +35144,7 @@ GameObject:
   - component: {fileID: 1521277437}
   - component: {fileID: 1521277436}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35567,7 +35328,7 @@ GameObject:
   - component: {fileID: 1528155235}
   - component: {fileID: 1528155234}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35841,7 +35602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534791710}
-  - component: {fileID: 1534791711}
+  - component: {fileID: 1534791712}
   m_Layer: 0
   m_Name: Path_Five_LMT_One
   m_TagString: Untagged
@@ -35877,7 +35638,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1534791711
+--- !u!114 &1534791712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35886,16 +35647,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1534791709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 898462468}
+  NaturalFloor: {fileID: 1308910404}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -35972,7 +35728,7 @@ GameObject:
   - component: {fileID: 1540667572}
   - component: {fileID: 1540667571}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36120,7 +35876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554395231}
   m_Layer: 0
-  m_Name: WallOne
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36257,7 +36013,7 @@ RectTransform:
   - {fileID: 362745009}
   - {fileID: 1346729920}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -36277,7 +36033,7 @@ GameObject:
   - component: {fileID: 1569294775}
   - component: {fileID: 1569294774}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36369,7 +36125,7 @@ GameObject:
   - component: {fileID: 1573860374}
   - component: {fileID: 1573860373}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36461,7 +36217,7 @@ GameObject:
   - component: {fileID: 1574001139}
   - component: {fileID: 1574001138}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37028,7 +36784,7 @@ GameObject:
   - component: {fileID: 1612137945}
   - component: {fileID: 1612137946}
   m_Layer: 0
-  m_Name: PivotPoint (15)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37144,7 +36900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616216074}
   m_Layer: 0
-  m_Name: WallTwo (4)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37178,7 +36934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1623330535}
   m_Layer: 0
-  m_Name: WallOne (7)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37365,7 +37121,7 @@ GameObject:
   - component: {fileID: 1628572080}
   - component: {fileID: 1628572081}
   m_Layer: 0
-  m_Name: PivotPoint (13)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38529,7 +38285,7 @@ GameObject:
   - component: {fileID: 1691261666}
   - component: {fileID: 1691261665}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38714,7 +38470,7 @@ GameObject:
   - component: {fileID: 1696641500}
   - component: {fileID: 1696641499}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38958,7 +38714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707830366}
   m_Layer: 0
-  m_Name: WallOne
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39172,7 +38928,7 @@ GameObject:
   - component: {fileID: 1721493836}
   - component: {fileID: 1721493835}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39357,7 +39113,7 @@ GameObject:
   - component: {fileID: 1726476517}
   - component: {fileID: 1726476516}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39445,7 +39201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1727062580}
-  - component: {fileID: 1727062581}
+  - component: {fileID: 1727062582}
   m_Layer: 0
   m_Name: Path_Five_LMT_Two
   m_TagString: Untagged
@@ -39481,7 +39237,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1727062581
+--- !u!114 &1727062582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39490,16 +39246,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1727062579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1892971858}
+  NaturalFloor: {fileID: 1449332938}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -39554,7 +39305,7 @@ GameObject:
   - component: {fileID: 1744498817}
   - component: {fileID: 1744498816}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39646,7 +39397,7 @@ GameObject:
   - component: {fileID: 1746308947}
   - component: {fileID: 1746308946}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39831,7 +39582,7 @@ GameObject:
   - component: {fileID: 1752617171}
   - component: {fileID: 1752617170}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40095,7 +39846,7 @@ GameObject:
   - component: {fileID: 1757160599}
   - component: {fileID: 1757160598}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40185,7 +39936,7 @@ GameObject:
   - component: {fileID: 1758665252}
   - component: {fileID: 1758665253}
   m_Layer: 0
-  m_Name: PivotPoint (1)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40325,7 +40076,7 @@ GameObject:
   - component: {fileID: 1765833082}
   - component: {fileID: 1765833081}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40415,7 +40166,7 @@ GameObject:
   - component: {fileID: 1768057489}
   - component: {fileID: 1768057490}
   m_Layer: 0
-  m_Name: PivotPoint (14)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40833,7 +40584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1786266871}
   m_Layer: 0
-  m_Name: WallTwo (7)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41649,7 +41400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813953111}
   m_Layer: 0
-  m_Name: WallTwo
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41686,7 +41437,7 @@ GameObject:
   - component: {fileID: 1832281360}
   - component: {fileID: 1832281359}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41778,7 +41529,7 @@ GameObject:
   - component: {fileID: 1836141212}
   - component: {fileID: 1836141211}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41870,7 +41621,7 @@ GameObject:
   - component: {fileID: 1838975672}
   - component: {fileID: 1838975671}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41962,7 +41713,7 @@ GameObject:
   - component: {fileID: 1840069237}
   - component: {fileID: 1840069236}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42148,7 +41899,7 @@ GameObject:
   - component: {fileID: 1845416924}
   - component: {fileID: 1845416925}
   m_Layer: 0
-  m_Name: PivotPoint (7)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42443,7 +42194,7 @@ GameObject:
   - component: {fileID: 1852997823}
   - component: {fileID: 1852997822}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42724,7 +42475,7 @@ GameObject:
   - component: {fileID: 1868946758}
   - component: {fileID: 1868946757}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42813,7 +42564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871743623}
   m_Layer: 0
-  m_Name: WallOne (5)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42940,7 +42691,7 @@ GameObject:
   - component: {fileID: 1884557243}
   - component: {fileID: 1884557244}
   m_Layer: 0
-  m_Name: PivotPoint (12)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42984,7 +42735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885271751}
   m_Layer: 0
-  m_Name: WallTwo (4)
+  m_Name: Wall_Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43021,7 +42772,7 @@ GameObject:
   - component: {fileID: 1887434045}
   - component: {fileID: 1887434044}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43209,7 +42960,7 @@ GameObject:
   - component: {fileID: 1891713649}
   - component: {fileID: 1891713648}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43298,7 +43049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892971859}
   m_Layer: 0
-  m_Name: WallOne (3)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43524,7 +43275,7 @@ GameObject:
   - component: {fileID: 1911128839}
   - component: {fileID: 1911128838}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43616,7 +43367,7 @@ GameObject:
   - component: {fileID: 1911940937}
   - component: {fileID: 1911940936}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43706,7 +43457,7 @@ GameObject:
   - component: {fileID: 1917728491}
   - component: {fileID: 1917728492}
   m_Layer: 0
-  m_Name: PivotPoint (4)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43753,7 +43504,7 @@ GameObject:
   - component: {fileID: 1918491192}
   - component: {fileID: 1918491191}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44034,7 +43785,7 @@ GameObject:
   - component: {fileID: 1923122328}
   - component: {fileID: 1923122327}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44232,7 +43983,7 @@ GameObject:
   - component: {fileID: 1929770408}
   - component: {fileID: 1929770407}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44417,7 +44168,7 @@ GameObject:
   - component: {fileID: 1939210367}
   - component: {fileID: 1939210366}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44696,7 +44447,7 @@ GameObject:
   - component: {fileID: 1945379819}
   - component: {fileID: 1945379820}
   m_Layer: 0
-  m_Name: PivotPoint (11)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44923,7 +44674,7 @@ GameObject:
   - component: {fileID: 1953116054}
   - component: {fileID: 1953116055}
   m_Layer: 0
-  m_Name: PivotPoint (2)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45061,7 +44812,7 @@ GameObject:
   - component: {fileID: 1955486454}
   - component: {fileID: 1955486455}
   m_Layer: 0
-  m_Name: PivotPoint (4)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45204,7 +44955,7 @@ GameObject:
   - component: {fileID: 1957425116}
   - component: {fileID: 1957425115}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45665,7 +45416,7 @@ GameObject:
   - component: {fileID: 1967804810}
   - component: {fileID: 1967804809}
   m_Layer: 0
-  m_Name: Scene_Object (3)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45816,7 +45567,7 @@ GameObject:
   - component: {fileID: 1970674438}
   - component: {fileID: 1970674437}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46243,7 +45994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1988513567}
-  - component: {fileID: 1988513568}
+  - component: {fileID: 1988513569}
   m_Layer: 0
   m_Name: Path_Five_DMO_Two
   m_TagString: Untagged
@@ -46279,7 +46030,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1988513568
+--- !u!114 &1988513569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46288,16 +46039,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1988513566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 906291558}
+  NaturalFloor: {fileID: 739531684}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -46408,7 +46154,7 @@ GameObject:
   - component: {fileID: 1992578739}
   - component: {fileID: 1992578738}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46791,7 +46537,7 @@ GameObject:
   - component: {fileID: 1998709796}
   - component: {fileID: 1998709795}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47113,7 +46859,7 @@ GameObject:
   - component: {fileID: 2003769525}
   - component: {fileID: 2003769524}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47205,7 +46951,7 @@ GameObject:
   - component: {fileID: 2006597756}
   - component: {fileID: 2006597755}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47514,7 +47260,7 @@ GameObject:
   - component: {fileID: 2018911675}
   - component: {fileID: 2018911674}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47697,7 +47443,7 @@ GameObject:
   - component: {fileID: 2023454523}
   - component: {fileID: 2023454524}
   m_Layer: 0
-  m_Name: PivotPoint (1)
+  m_Name: Pivot_Two
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47881,7 +47627,7 @@ GameObject:
   - component: {fileID: 2036350660}
   - component: {fileID: 2036350659}
   m_Layer: 0
-  m_Name: Scene_Object (2)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47971,7 +47717,7 @@ GameObject:
   - component: {fileID: 2040580661}
   - component: {fileID: 2040580662}
   m_Layer: 0
-  m_Name: PivotPoint (14)
+  m_Name: Pivot_One
   m_TagString: LoseItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48709,7 +48455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2059223238
 GameObject:
@@ -48724,7 +48470,7 @@ GameObject:
   - component: {fileID: 2059223241}
   - component: {fileID: 2059223240}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48816,7 +48562,7 @@ GameObject:
   - component: {fileID: 2060098565}
   - component: {fileID: 2060098564}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49066,7 +48812,7 @@ GameObject:
   - component: {fileID: 2073012415}
   - component: {fileID: 2073012414}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49158,7 +48904,7 @@ GameObject:
   - component: {fileID: 2075431621}
   - component: {fileID: 2075431620}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49384,7 +49130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2078901485}
   m_Layer: 0
-  m_Name: WallOne (6)
+  m_Name: Wall_One
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49666,7 +49412,7 @@ GameObject:
   - component: {fileID: 2094319329}
   - component: {fileID: 2094319328}
   m_Layer: 0
-  m_Name: Scene_Object (1)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49764,7 +49510,7 @@ GameObject:
   - component: {fileID: 2097687808}
   - component: {fileID: 2097687807}
   m_Layer: 0
-  m_Name: Scene_Object (4)
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50075,7 +49821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2129114919}
-  - component: {fileID: 2129114920}
+  - component: {fileID: 2129114921}
   m_Layer: 0
   m_Name: Path_Five_LNT_One
   m_TagString: Untagged
@@ -50111,7 +49857,7 @@ Transform:
   m_Father: {fileID: 473274352}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2129114920
+--- !u!114 &2129114921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50120,16 +49866,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2129114918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8162789f6f351af408fd3b1ea0a61dc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 78caab50eda8ee34f82cac57d5ebfd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MidColorScale: 150
-  LightColor: {r: 0, g: 0, b: 0, a: 0}
-  DarkColor: {r: 0, g: 0, b: 0, a: 0}
-  sceneStays: 1
-  sceneChangesColor: 0
-  ManMadeFloor: {fileID: 0}
-  NatureFloor: {fileID: 0}
+  IndustrialFloor: {fileID: 1166620681}
+  NaturalFloor: {fileID: 868486318}
   LeadsTo:
   - {fileID: 2014016304}
   - {fileID: 2014016304}
@@ -50207,7 +49948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53012abc39cdfef438be26d721667799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeImage: {fileID: 0}
+  fadeImage: {fileID: 1612598630}
   timeToFade: 2
 --- !u!4 &2133849517
 Transform:
@@ -50221,7 +49962,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137960536
 GameObject:
@@ -50376,7 +50117,7 @@ GameObject:
   - component: {fileID: 2138999849}
   - component: {fileID: 2138999848}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50468,7 +50209,7 @@ GameObject:
   - component: {fileID: 2141263652}
   - component: {fileID: 2141263651}
   m_Layer: 0
-  m_Name: Scene_Object
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
