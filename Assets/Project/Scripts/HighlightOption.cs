@@ -13,15 +13,14 @@ public class HighlightOption : MonoBehaviour
 
     public float lerpProgress;
 
-    public Color materialOriginal;
-    public Color materialEnd;
+    public Color ColorStart;
+    public Color ColorEnd;
 
     private bool isRocked;
     private float RotationStart;
     private float RotationEnding;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         hasBeenHeld = 0f;
 
@@ -31,7 +30,18 @@ public class HighlightOption : MonoBehaviour
             RotationEnding = 15.0f;
         }
 
-        holdTime = GetComponentInParent<TriggerRelocate>().activateTimer;
+        if (transform.childCount < 1)
+        {
+            ColorStart = Color.white;
+            ColorEnd = Color.grey;
+        }
+        else
+        {
+            ColorStart = GetComponentInChildren<MeshRenderer>().material.color;
+            ColorEnd = ColorStart / 2;
+        }
+
+        holdTime = GetComponent<TriggerRelocate>().activateTimer;
     }
 
     public void ActivateTouch()
@@ -67,7 +77,7 @@ public class HighlightOption : MonoBehaviour
 
             if(glareSelection)
             {
-                GetComponent<MeshRenderer>().material.color = Color.Lerp(materialOriginal, materialEnd, lerpProgress);
+                GetComponentInChildren<MeshRenderer>().material.color = Color.Lerp(ColorStart, ColorEnd, lerpProgress);
             }
 
             startSelection = false;
@@ -76,7 +86,7 @@ public class HighlightOption : MonoBehaviour
         {
             hasBeenHeld = 0f;
             transform.rotation = Quaternion.identity;
-            GetComponent<MeshRenderer>().material.color = materialOriginal;
+            GetComponentInChildren<MeshRenderer>().material.color = ColorStart;
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - TriggerTwo
   - LoseItem
   - TriggerStart
+  - RemoveOnSimulation
   layers:
   - Default
   - TransparentFX

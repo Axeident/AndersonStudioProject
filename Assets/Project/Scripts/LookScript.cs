@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script is obsolete, do not use. It will be deleted once I know that everyone is aware and no one is modifying this script.
 public class LookScript : MonoBehaviour
 {
     //Material for color manipulation, light to dark
