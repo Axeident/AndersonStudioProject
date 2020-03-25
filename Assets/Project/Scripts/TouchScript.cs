@@ -19,9 +19,9 @@ public class TouchScript : MonoBehaviour
         
         foreach (Transform child in transform)
         {
-            if (child.gameObject.GetComponent<GrabbableRespawn>())
+            if (child.gameObject.GetComponent<GrabbableSelection>())
             {
-                child.gameObject.GetComponent<GrabbableRespawn>().respawning = false;
+                child.gameObject.GetComponent<GrabbableSelection>().respawning = false;
             }
         }
 

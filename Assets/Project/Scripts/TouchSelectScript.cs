@@ -41,7 +41,7 @@ public class TouchSelectScript : MonoBehaviour
                 //disable touch movement on the objects in the scene
                 foreach(Transform trigOff in trigs)
                 {
-                    trigOff.GetComponent<GrabbableRespawn>().enabled = false;
+                    trigOff.GetComponent<GrabbableSelection>().enabled = false;
                     trigOff.GetComponent<OVRGrabbable>().enabled = false;
                     Destroy(trigOff.GetComponent<Rigidbody>());
                     //trigOff.gameObject.SetActive(false);
@@ -63,7 +63,7 @@ public class TouchSelectScript : MonoBehaviour
                 //disable touch movement on the objects in the scene
                 foreach (Transform trigOff in trigs)
                 {
-                    trigOff.GetComponent<GrabbableRespawn>().enabled = false;
+                    trigOff.GetComponent<GrabbableSelection>().enabled = false;
                     trigOff.GetComponent<OVRGrabbable>().enabled = false;
                     Destroy(trigOff.GetComponent<Rigidbody>());
                     //trigOff.gameObject.SetActive(false);
