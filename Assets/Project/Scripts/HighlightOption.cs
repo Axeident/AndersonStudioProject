@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class HighlightOption : MonoBehaviour
 {
-    public bool shakeSelection;
-    public bool glareSelection;
+    public bool DoesSelectionShake;
 
     private bool startSelection;
     private float holdTime;
     private float hasBeenHeld;
 
-    public float lerpProgress;
+    private float lerpProgress;
 
-    public Color ColorStart;
-    public Color ColorEnd;
+    private Color ColorStart;
+    private Color ColorEnd;
 
     private bool isRocked;
     private float RotationStart;
@@ -24,7 +23,7 @@ public class HighlightOption : MonoBehaviour
     {
         hasBeenHeld = 0f;
 
-        if(shakeSelection)
+        if(DoesSelectionShake)
         {
             RotationStart = 0.0f;
             RotationEnding = 15.0f;
@@ -38,10 +37,11 @@ public class HighlightOption : MonoBehaviour
         else
         {
             ColorStart = GetComponentInChildren<MeshRenderer>().material.color;
-            ColorEnd = ColorStart / 2;
+            Color color = ColorStart / 2;
+            ColorEnd = color;
         }
 
-        holdTime = GetComponent<TriggerRelocate>().activateTimer;
+        holdTime = GetComponentInParent<TriggerRelocate>().activateTimer;
     }
 
     public void ActivateTouch()
@@ -58,7 +58,7 @@ public class HighlightOption : MonoBehaviour
 
             lerpProgress = hasBeenHeld / holdTime;
 
-            if (shakeSelection)
+            if (DoesSelectionShake)
             {
                 float roter = Mathf.Lerp(RotationStart, RotationEnding, lerpProgress);
 
@@ -75,7 +75,7 @@ public class HighlightOption : MonoBehaviour
 
             }
 
-            if(glareSelection)
+            else
             {
                 GetComponentInChildren<MeshRenderer>().material.color = Color.Lerp(ColorStart, ColorEnd, lerpProgress);
             }
