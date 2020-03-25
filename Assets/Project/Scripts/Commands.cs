@@ -30,9 +30,7 @@ public class Commands : MonoBehaviour
     /// <returns></returns>
     public IEnumerator LoadSceneWithFade(FadeDirection fadeDirection, string nextScene)
     {
-        Debug.Log("yield start");
         yield return Fade(fadeDirection);
-        Debug.Log("yield complete");
         SceneManager.LoadScene(nextScene);
     }
 
@@ -43,6 +41,7 @@ public class Commands : MonoBehaviour
         float alphaFinal = (fadeDirection == FadeDirection.Out) ? 0 : 1;
         if (fadeDirection == FadeDirection.Out)
         {
+            Debug.Log("Fade Out");
             while (alpha >= alphaFinal)
             {
                 SetColorImage(ref alpha, fadeDirection);
@@ -52,6 +51,7 @@ public class Commands : MonoBehaviour
         }
         else
         {
+            Debug.Log("Fade In");
             fadeImage.enabled = true;
             while (alpha <= alphaFinal)
             {
