@@ -24,7 +24,7 @@ Material:
     - _Gradientintensity: 1
     - _Gradientposition: 1.35
     - _Gradientsize: 1.59
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _BottomColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
     - _TopColor: {r: 1, g: 1, b: 1, a: 0}
