@@ -11134,7 +11134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IntroSound: {fileID: 0}
   PlayIntroTime: 1
-  LoopSound: 0
+  LoopSound: 1
 --- !u!1 &480242350
 GameObject:
   m_ObjectHideFlags: 0
@@ -15044,7 +15044,7 @@ MonoBehaviour:
   LightSoundSource: {fileID: 1878955470}
   LookTowardLight: {fileID: 8300000, guid: 814ff6098a715f44f9b08be8344335e9, type: 3}
   LookTowardDark: {fileID: 8300000, guid: d5c30d7a1213d704088b46fc2e8a6406, type: 3}
-  IntroSound: {fileID: 0}
+  IntroSound: {fileID: 8300000, guid: c2c41def6c764fb4c843bbd3c5c4f87a, type: 3}
   PlayIntroTime: 2
   LookAwayLight: {fileID: 8300000, guid: 1d00cb6f737d9814cb115290b989e01a, type: 3}
   LookAwayDark: {fileID: 8300000, guid: 19183fc0318f16842b0655dba6aad06f, type: 3}
@@ -24720,7 +24720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IntroSound: {fileID: 0}
   PlayIntroTime: 1
-  LoopSound: 0
+  LoopSound: 1
 --- !u!1001 &1084512412
 PrefabInstance:
   m_ObjectHideFlags: 0

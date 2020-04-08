@@ -20,6 +20,7 @@ public class PlayIntroSound : MonoBehaviour
         BeginIntro = true;
         IntroPlaying = 0.0f;
 
+        makeSound = GetComponent<AudioSource>();
         makeSound.loop = LoopSound;
     }
 
