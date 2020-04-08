@@ -5,8 +5,8 @@ using UnityEngine;
 public class LDSound : MonoBehaviour
 {
     private AudioSource makeSound;
-    private AudioSource DarkTrigger;
-    private AudioSource LightTrigger;
+    public AudioSource DarkSoundSource;
+    public AudioSource LightSoundSource;
 
     public AudioClip LookTowardLight;
     private bool hasLookedLight;
@@ -46,19 +46,8 @@ public class LDSound : MonoBehaviour
         hasChosenDark = false;
         hasChosenLight = false;
 
-        makeSound = GetComponent<AudioSource>();
+        makeSound = GetComponent<AudioSource>();       
         
-        foreach(Transform searchChild in transform)
-        {
-            if(searchChild.CompareTag("TriggerOne"))
-            {
-                LightTrigger = searchChild.GetComponent<AudioSource>();
-            }
-            if(searchChild.CompareTag("TriggerTwo"))
-            {
-                DarkTrigger = searchChild.GetComponent<AudioSource>();
-            }
-        }
     }
 
     // Update is called once per frame
@@ -81,14 +70,14 @@ public class LDSound : MonoBehaviour
     {
         if(!hasLookedDark && PlayDark)
         {
-            DarkTrigger.clip = LookTowardDark;
-            DarkTrigger.Play();
+            DarkSoundSource.clip = LookTowardDark;
+            DarkSoundSource.Play();
             hasLookedDark = true;
         }
         if(!hasLookedLight && !PlayDark)
         {
-            LightTrigger.clip = LookTowardLight;
-            LightTrigger.Play();
+            LightSoundSource.clip = LookTowardLight;
+            LightSoundSource.Play();
             hasLookedLight = true;
         }
     }
@@ -97,14 +86,14 @@ public class LDSound : MonoBehaviour
     {
         if (!hasAwayDark && PlayDark)
         {
-            DarkTrigger.clip = LookAwayDark;
-            DarkTrigger.Play();
+            DarkSoundSource.clip = LookAwayDark;
+            DarkSoundSource.Play();
             hasAwayDark = true;
         }
         if (!hasAwayLight && !PlayDark)
         {
-            LightTrigger.clip = LookAwayLight;
-            LightTrigger.Play();
+            LightSoundSource.clip = LookAwayLight;
+            LightSoundSource.Play();
             hasAwayLight = true;
         }
     }
@@ -113,14 +102,14 @@ public class LDSound : MonoBehaviour
     {
         if (!hasChosenDark && PlayDark)
         {
-            DarkTrigger.clip = ChoseDark;
-            DarkTrigger.Play();
+            DarkSoundSource.clip = ChoseDark;
+            DarkSoundSource.Play();
             hasChosenDark = true;
         }
         if (!hasChosenLight && !PlayDark)
         {
-            LightTrigger.clip = ChoseLight;
-            LightTrigger.Play();
+            LightSoundSource.clip = ChoseLight;
+            LightSoundSource.Play();
             hasChosenLight = true;
         }
     }

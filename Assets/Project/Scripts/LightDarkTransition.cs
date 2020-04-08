@@ -6,6 +6,7 @@ public class LightDarkTransition : MonoBehaviour
 {
     //Tracking where the player is and what rotation they are at (aka: where they are looking)
     private Transform player;
+    public float LookStartSound = 0.1f;
 
     //Is this script running, so we can track if the triggers are being used for this script
     private bool runningScript;
@@ -166,11 +167,11 @@ public class LightDarkTransition : MonoBehaviour
                 mathNumber = (currentRotation - 270) / 180;
             }
 
-            if(mathNumber < 0.3f)
+            if(mathNumber < 0.5f-LookStartSound)
             {
                 GetComponent<LDSound>().PlayAwaySound(true);
             }
-            if(mathNumber > 0.7f)
+            if(mathNumber > 0.5f+LookStartSound)
             {
                 GetComponent<LDSound>().PlayAwaySound(false);
             }
