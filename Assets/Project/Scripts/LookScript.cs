@@ -99,18 +99,13 @@ public class LookScript : MonoBehaviour
                     waitingHold = true;
                     //track numerically what trigger we are looking at
                     optionChosen = 0;
+                    GetComponent<LDSound>().PlayLookSound(false);
                 }
                 if (hit.transform.gameObject.CompareTag("TriggerTwo"))
                 {
                     waitingHold = true;
                     optionChosen = 1;
-                }
-                if (hit.transform.gameObject.CompareTag("VisionTrigger"))
-                {
-                    waitingHold = true;
-                    //If there is only one place to go after the trigger, such as zooming the room out,
-                    //the Leads To list will only have One item, index Zero
-                    optionChosen = 0;
+                    GetComponent<LDSound>().PlayLookSound(true);
                 }
 
             }

@@ -73,11 +73,14 @@ public class LightDarkTransition : MonoBehaviour
                     waitingHold = true;
                     //track numerically what trigger we are looking at
                     optionChosen = 0;
+                    //Send a message to play the sound associated with looking at Light
+                    GetComponent<LDSound>().PlayLookSound(false);
                 }
                 if (hit.transform.gameObject.CompareTag("TriggerTwo"))
                 {
                     waitingHold = true;
                     optionChosen = 1;
+                    GetComponent<LDSound>().PlayLookSound(true);
                 }
             }
 
@@ -94,10 +97,12 @@ public class LightDarkTransition : MonoBehaviour
                     if (optionChosen == 0)
                     {
                         player.GetComponentInChildren<Camera>().backgroundColor = LightColor;
+                        GetComponent<LDSound>().PlayChoseSound(false);
                     }
                     else
                     {
                         player.GetComponentInChildren<Camera>().backgroundColor = DarkColor;
+                        GetComponent<LDSound>().PlayChoseSound(true);
                     }
 
 
@@ -159,6 +164,15 @@ public class LightDarkTransition : MonoBehaviour
             else if (currentRotation >= 285 && currentRotation < 360)
             {
                 mathNumber = (currentRotation - 270) / 180;
+            }
+
+            if(mathNumber < 0.3f)
+            {
+                GetComponent<LDSound>().PlayAwaySound(true);
+            }
+            if(mathNumber > 0.7f)
+            {
+                GetComponent<LDSound>().PlayAwaySound(false);
             }
 
             //This finds each wall in the scene (already deteremined when the transition is awoken) and
