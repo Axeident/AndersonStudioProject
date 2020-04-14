@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LargeTreeLeaves_02
   m_Shader: {fileID: 4800000, guid: d0165366e32ca4e4a993cb2f77262e19, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _MOVINGGRADIENT_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -18,71 +18,24 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Floats:
     - _Blendamount: 0.001
-    - _BumpScale: 1
-    - _Contrast1: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Gradientintensity1: 1
-    - _Gradientposition1: 1
-    - _Gradientsize1: 0.82
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
+    - _Contrast: 1
+    - _Contrast1: 1.76
+    - _Gradientintensity: 1
+    - _Gradientintensity1: 3.74
+    - _Gradientposition: 1.58
+    - _Gradientposition1: 1.8
+    - _Gradientsize: 0.82
+    - _Gradientsize1: 1.79
+    - _MovingGRadient: 1
     - _WorldFrequency: 0.07497557
-    - _ZWrite: 1
     - __dirty: 0
     - _winddirection: 0.2205882
     m_Colors:
-    - _BottomColor1: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TopColor1: {r: 1, g: 1, b: 1, a: 0}
+    - _BottomColor: {r: 1, g: 0.99959075, b: 0, a: 0}
+    - _BottomColor1: {r: 0.0748932, g: 0.31132078, b: 0.27712944, a: 0}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TopColor1: {r: 0.016509444, g: 0.5, b: 0.3115577, a: 0}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
