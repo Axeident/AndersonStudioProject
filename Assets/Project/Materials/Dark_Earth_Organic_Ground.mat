@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Contrast: 0.73
-    - _Gradientintensity: 1.42
-    - _Gradientposition: 0.9
-    - _Gradientsize: 1.05
+    - _Contrast: 0.65
+    - _Gradientintensity: 6.94
+    - _Gradientposition: 3.27
+    - _Gradientsize: 2.32
     - __dirty: 0
     m_Colors:
     - _BottomColor: {r: 0, g: 0, b: 0, a: 0}
-    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TopColor: {r: 0.6415094, g: 0, b: 0.2169561, a: 0}

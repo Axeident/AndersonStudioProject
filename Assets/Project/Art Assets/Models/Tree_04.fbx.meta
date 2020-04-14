@@ -3,7 +3,17 @@ guid: ff3ef38060060435dbc526d6414e51ce
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves_01
+    second: {fileID: 2100000, guid: 5ae50af3c57cc8244a8cd14c240c154e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunk_01
+    second: {fileID: 2100000, guid: ef1d35e82ca2e0e46aacedd1860cd2ac, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
