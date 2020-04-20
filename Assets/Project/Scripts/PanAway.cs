@@ -6,7 +6,7 @@ public class PanAway : MonoBehaviour
 {
     public bool startPan;
     private float startTimer;
-    public float journeyDistance;
+    private float journeyDistance;
 
     public float moveSpeed = 1f;
 
@@ -18,9 +18,9 @@ public class PanAway : MonoBehaviour
     public GameObject menus;
     public float MenuDelayTimer;
     private float menuTimer;
-    private bool startMenuTimer;
+    public bool startMenuTimer;
 
-    void Awake()
+    void Start()
     {
         startPan = false;
         startLocation = transform;
@@ -35,6 +35,7 @@ public class PanAway : MonoBehaviour
         startPan = true;
         startTimer = Time.time;
         journeyDistance = Vector3.Distance(moveLocation.position, startLocation.position);
+        startMenuTimer = true;
     }
 
     // Update is called once per frame
@@ -50,8 +51,7 @@ public class PanAway : MonoBehaviour
 
             if (distanceCovered >= journeyDistance)
             {
-                startPan = false;
-                startMenuTimer = true;
+                startPan = false;                
             }
         }
 
