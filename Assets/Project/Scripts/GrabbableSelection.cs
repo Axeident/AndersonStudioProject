@@ -26,7 +26,9 @@ public class GrabbableSelection : MonoBehaviour
     /// </summary>
     public GameObject leadsTo;
 
-    void Start()
+    public Transform otherTouch;
+
+    void Awake()
     {
         // sets respawnpoint to the location the object spawns in at
         spawnpoint = this.transform.position;
@@ -34,7 +36,19 @@ public class GrabbableSelection : MonoBehaviour
         {
             Debug.LogError("Touch object is not linked to the next stage");
         }
+        
+        foreach(Transform objectTest in transform.parent)
+        {
+            if(!objectTest.CompareTag(transform.tag))
+            {
+                if(objectTest.CompareTag("TriggerOne") || objectTest.CompareTag("TriggerTwo"))
+                {
+                    otherTouch = objectTest;
+                }
+            }
+        }
     }
+
 
     
     void Update()
@@ -53,6 +67,10 @@ public class GrabbableSelection : MonoBehaviour
             // play animation
             respawning = false;
             leadsTo.SetActive(true);
+
+            //Turn off the trigger objects in a scene, so they don't float into space or whatever
+            otherTouch.gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
 
         // checks if the object is too far away from the player, if so it respawns
