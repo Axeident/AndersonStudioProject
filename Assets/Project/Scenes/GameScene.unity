@@ -12595,6 +12595,8 @@ MonoBehaviour:
   journeyDistance: 0
   moveSpeed: 0.02
   moveLocation: {fileID: 1196577856}
+  menus: {fileID: 1568260168}
+  MenuDelayTimer: 0.5
 --- !u!1001 &473770390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51712,8 +51714,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HowLongTilStart: 4
-  menus: {fileID: 1568260168}
-  MenuDelayTimer: 10
 --- !u!1001 &2016785140
 PrefabInstance:
   m_ObjectHideFlags: 0

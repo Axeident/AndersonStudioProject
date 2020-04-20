@@ -14,10 +14,20 @@ public class PanAway : MonoBehaviour
     public Transform moveLocation;
     private Transform startLocation;
 
+    //Menu Stuff
+    public GameObject menus;
+    public float MenuDelayTimer;
+    private float menuTimer;
+    private bool startMenuTimer;
+
     void Awake()
     {
         startPan = false;
         startLocation = transform;
+
+        menus.SetActive(false);
+        startMenuTimer = false;
+        menuTimer = 0.0f;
     }
 
     public void StartJourney()
@@ -41,6 +51,18 @@ public class PanAway : MonoBehaviour
             if (distanceCovered >= journeyDistance)
             {
                 startPan = false;
+                startMenuTimer = true;
+            }
+        }
+
+        if(startMenuTimer)
+        {
+            menuTimer += Time.deltaTime;
+
+            if(menuTimer >= MenuDelayTimer)
+            {
+                menus.SetActive(true);
+                startMenuTimer = false;
             }
         }
     }
