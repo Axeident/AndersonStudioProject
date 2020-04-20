@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Light_Earth_organic_Ground
   m_Shader: {fileID: 4800000, guid: e1a254c361e664bcb877f0d82a6d47c1, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _MOVINGGRADIENT_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,10 +21,11 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _Contrast: 1
-    - _Gradientintensity: 1
-    - _Gradientposition: 1.35
-    - _Gradientsize: 1.59
-    - __dirty: 1
+    - _Gradientintensity: 2.38
+    - _Gradientposition: 0
+    - _Gradientsize: -0.38
+    - _MovingGRadient: 1
+    - __dirty: 0
     m_Colors:
-    - _BottomColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
+    - _BottomColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 0}
     - _TopColor: {r: 1, g: 1, b: 1, a: 0}
