@@ -20,15 +20,22 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Blendamount: 0.001
+    - _Blendamount: 0.0001
+    - _Contrast: 1
     - _Contrast1: 1
+    - _Gradientintensity: 1
     - _Gradientintensity1: 1
+    - _Gradientposition: 1
     - _Gradientposition1: 1
+    - _Gradientsize: 0.82
     - _Gradientsize1: 0.82
+    - _MovingGRadient: 0
     - _WorldFrequency: 0.07497557
     - __dirty: 0
     - _winddirection: 0.2205882
     m_Colors:
+    - _BottomColor: {r: 0, g: 0, b: 0, a: 0}
     - _BottomColor1: {r: 0, g: 0, b: 0, a: 0}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}
     - _TopColor1: {r: 1, g: 1, b: 1, a: 0}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
