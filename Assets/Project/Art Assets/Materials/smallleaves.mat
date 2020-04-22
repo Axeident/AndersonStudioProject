@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree_Bark_02
+  m_Name: smallleaves
   m_Shader: {fileID: 4800000, guid: e1a254c361e664bcb877f0d82a6d47c1, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _MOVINGGRADIENT_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -69,6 +69,7 @@ Material:
     - _Gradientsize: 0.82
     - _Metallic: 0
     - _Mode: 0
+    - _MovingGRadient: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
