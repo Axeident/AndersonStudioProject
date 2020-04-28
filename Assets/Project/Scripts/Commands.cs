@@ -77,7 +77,12 @@ public class Commands : MonoBehaviour
 
     public void MainMenu()
     {
-        LoadSceneWithFade(FadeDirection.In, "Start");
+        StartCoroutine(LoadSceneWithFade(FadeDirection.In, "Start"));
+    }
+
+    public void Credits()
+    {
+        StartCoroutine(LoadSceneWithFade(FadeDirection.In, "Credits"));
     }
 
     public void QuitSimulation()
